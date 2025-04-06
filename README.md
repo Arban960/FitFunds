@@ -11,13 +11,14 @@
 2. Install python dependencies
    
    pip install flask
+
    pip install alpaca-py
 
-3. Run server.py file
+4. Run server.py file
 
-4. Edit index.tsx inside of apps/tabs/ to show your IP address (where the server is running) at the two commented spots
+5. Edit index.tsx inside of apps/tabs/ to show your IP address (where the server is running) at the two commented spots
 
-5. Start the app
+6. Start the app
 
    ```bash
     npx expo start
