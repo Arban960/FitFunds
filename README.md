@@ -9,8 +9,8 @@
    ```
    
 2. Install python dependencies
-   pip install flask
-   pip install alpaca-py
+   '''pip install flask
+   pip install alpaca-py'''
 
 3. Run server.py file
 
