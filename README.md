@@ -1,4 +1,4 @@
-# Welcome to your FitFunds 👋
+# Welcome to FitFunds 👋
 
 ## Get started
 
