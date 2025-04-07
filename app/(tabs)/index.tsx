@@ -25,7 +25,7 @@ const index = () => {
     // Set up auth state listener
     const fetchData = async () => {
       try{
-          const API_URL = 'http://128.61.48.70:5000';
+          const API_URL = 'http://128.61.48.70:5000'; //PUT YOUR IP WHERE THE SERVER IS RUNNING
           const response = await fetch(API_URL+"/total_invested");
           const earnedResponse = await fetch(API_URL+"/total_earned")
           const json = await response.json();
@@ -63,7 +63,7 @@ const index = () => {
 
         // Check if ≥7 days AND current < goal
         if (daysSinceReset >= 7 && docSnap.data().current < docSnap.data().goal) {
-          const API_URL = 'http://128.61.48.70:5000';
+          const API_URL = 'http://128.61.48.70:5000'; // PUT YOUR IP WHERE THE SERVER IS RUNNING
           await fetch(API_URL+"/auto_invest"+dollars);
 
           await updateDoc(docRef, {
