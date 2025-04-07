@@ -5,8 +5,8 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = "PKI9XHHQ2KHHS79CG3IS"
-SECRET_KEY = "zQ8quy7ZOIdycyL8RBEs06IWtAySAIoDu58IJadO"
+API_KEY = ""
+SECRET_KEY = ""
 
 #create connection to paper trading api
 #https://api.alpaca.markets for live trading
