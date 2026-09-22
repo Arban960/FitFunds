@@ -180,6 +180,6 @@ npm test           # Run Jest in watch mode
 4. Select and save a gym location on the map.
 5. Check in from the gym using device location verification.
 6. Monitor workout progress and investment totals from the dashboard.
-7. If the commitment condition is not met during the configured period, the backend can place a paper-trading order.
+7. If the commitment condition is not met during the configured period, the backend can place an order.
 
 
