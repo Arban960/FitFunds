@@ -1,6 +1,5 @@
 # FitFunds
 
-> **Build healthy habits. Invest in your future.**
 
 FitFunds is a mobile fitness accountability app that connects gym attendance with personal finance. Users set a workout commitment and a dollar amount, verify gym visits using their device location, and track how their progress ties into a simulated investment plan.
 
